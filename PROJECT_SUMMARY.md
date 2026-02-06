@@ -132,7 +132,7 @@ CarRentalSystem/
 └── compile_and_run.bat (Windows script)
 ```
 
-## 🚀 HOW TO USE THIS PROJECT
+##  HOW TO USE THIS PROJECT
 
 ### Step 1: Setup
 1. Download the entire CarRentalSystem folder
