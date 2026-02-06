@@ -1,10 +1,10 @@
 # Car Rental System - Java OOP Project
 
-## 📋 Project Overview
+##  Project Overview
 
 This is a comprehensive Car Rental System developed using Object-Oriented Programming (OOP) principles in Java. The system demonstrates encapsulation, inheritance, abstraction, and polymorphism while managing cars, customers, and rental transactions.
 
-## 🎯 Features
+##  Features
 
 ### Core Functionality
 - **Car Management**: Add, remove, view, and manage vehicles in the fleet
@@ -20,7 +20,7 @@ This is a comprehensive Car Rental System developed using Object-Oriented Progra
 4. **Data Validation**: Input validation and error handling
 5. **Business Rules**: Enforced through methods (e.g., can't rent unavailable car)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 CarRentalSystem/
@@ -37,7 +37,7 @@ CarRentalSystem/
 └── README.md                     # This file
 ```
 
-## 🚀 How to Compile and Run
+##  How to Compile and Run
 
 ### Prerequisites
 - Java JDK 8 or higher
@@ -81,7 +81,7 @@ javac LoginSystem.java
 java LoginSystem
 ```
 
-## 📚 Class Documentation
+##  Class Documentation
 
 ### 1. Car Class
 Represents a vehicle in the rental fleet.
@@ -151,7 +151,7 @@ Main business logic coordinator.
 - `completeRental(String rentalId)`: Return vehicle
 - `generateRevenueReport()`: Display business metrics
 
-## 🧪 Testing
+##  Testing
 
 The project includes a comprehensive test suite with 30+ test cases covering:
 
@@ -206,7 +206,7 @@ java -cp bin com.carrental.tests.CarRentalSystemTest
 ╚════════════════════════════════════════════╝
 ```
 
-## 🔐 Login System
+##  Login System
 
 The `LoginSystem.java` file demonstrates secure authentication with:
 
@@ -225,7 +225,7 @@ javac LoginSystem.java
 java LoginSystem
 ```
 
-## 💡 Usage Examples
+##  Usage Examples
 
 ### Example 1: Adding a Car
 ```java
@@ -247,7 +247,7 @@ agency.completeRental("R1000");
 // Car is automatically returned to available status
 ```
 
-## 🎨 Sample Output
+##  Sample Output
 
 ### Main Menu
 ```
@@ -277,7 +277,7 @@ Status: ACTIVE
 ----------------------------------------
 ```
 
-## 🔍 Key OOP Concepts Demonstrated
+##  Key OOP Concepts Demonstrated
 
 ### 1. Encapsulation
 All class fields are private with public getters/setters:
@@ -310,7 +310,7 @@ public List<Car> getCars() {
 }
 ```
 
-## 📊 Business Logic Highlights
+##  Business Logic Highlights
 
 1. **Automatic Cost Calculation**: Based on daily rate and duration
 2. **Availability Tracking**: Cars cannot be rented twice simultaneously
@@ -318,7 +318,7 @@ public List<Car> getCars() {
 4. **Status Management**: ACTIVE → COMPLETED/CANCELLED transitions
 5. **Revenue Reporting**: Aggregates completed rentals
 
-## 🛠️ Error Handling
+##  Error Handling
 
 The system includes comprehensive error handling:
 - Null parameter validation
@@ -327,7 +327,7 @@ The system includes comprehensive error handling:
 - State transition validation
 - Business rule enforcement
 
-## 📝 Code Quality Features
+##  Code Quality Features
 
 - **Clear naming conventions**: Descriptive method and variable names
 - **Comprehensive comments**: JavaDoc style documentation
@@ -336,7 +336,7 @@ The system includes comprehensive error handling:
 - **Input validation**: All user inputs validated
 - **Exception handling**: Try-catch blocks where appropriate
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 This project demonstrates:
 1. Class design and relationships
@@ -350,30 +350,17 @@ This project demonstrates:
 9. User interface design
 10. Code documentation
 
-## 👨‍💻 Author
+##  Author
 
 **Your Name**
-- GitHub: [Your GitHub URL]
-- Email: your.email@example.com
+- GitHub: github.com/Lemmy254-lab
+- Email:koomelemuel10@gmail.com
 - Institution: Zetech University
 
-## 📄 License
+##  License
 
 This project is created for educational purposes as part of an OOP course assignment.
 
-## 🙏 Acknowledgments
 
-- Zetech University Computer Science Department
-- Java Documentation and Tutorials
-- Object-Oriented Programming best practices
 
----
 
-**Note**: This is a demonstration project for educational purposes. In a production environment, you would implement:
-- Database connectivity
-- User authentication with encryption
-- RESTful API endpoints
-- Web/mobile interface
-- Payment processing
-- Email notifications
-- Advanced reporting with charts
